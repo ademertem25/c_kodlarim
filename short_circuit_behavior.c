@@ -2,7 +2,7 @@
 int foo(void)
 {
     printf("foo\n");
-    return 0;
+    return 1;
 }
 int bar(void)
 {
@@ -17,6 +17,7 @@ int main(void)
     int z;
 
     foo()&& bar();
+    foo() || bar();
     z = x && y++;
 
     printf("x = %d\n",x);
