@@ -1,2 +1,1 @@
-# c_kodlar-m
-c dosyalarım
+# c_kodlarım
